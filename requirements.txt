@@ -1,0 +1,11 @@
+flask 
+scikit-learn 
+numpy
+pandas
+pywin32
+streamlit-autorefresh
+opencv-contrib-python
+dlib
+numpy
+scipy
+Eigenfaces
