@@ -5,6 +5,8 @@ import os
 import csv
 import json
 import bcrypt
+import pandas as pd
+import matplotlib.pyplot as plt
 
 app = Flask(__name__)
 CORS(app)  # Enable Cross-Origin Resource Sharing for frontend-backend communication
@@ -143,4 +145,5 @@ def mark_attendance():
 if __name__ == '__main__':
     print("Starting Flask app...")
     app.run(debug=True,host='0.0.0.0', port=5000)  ##your local host
+
 
