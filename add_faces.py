@@ -14,7 +14,7 @@ detector = dlib.get_frontal_face_detector()
 # Constants
 EAR_THRESHOLD = 0.2
 CONSEC_FRAMES = 3
-MAX_IMAGES = 500  # Number of images to collect per person
+MAX_IMAGES = 800 # Number of images to collect per person
 blink_counter = 0
 liveness_confirmed = False
 dataset_dir = "dataset"  # Directory to save images
@@ -122,3 +122,4 @@ with open('data/names_and_usns.pkl', 'wb') as f:
     pickle.dump(names_and_usns, f)
 
 print(f"Face registration for {name} ({usn}) completed and saved in {person_dir}.")
+
