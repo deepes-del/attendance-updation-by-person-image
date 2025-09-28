@@ -19,6 +19,8 @@ Make sure the following tools and libraries are installed:
 
 ## Installation
 
+u can use any deep learning model. according to the your use case , or which gives more accurate
+
 1. Clone this repository:
    ```bash
    git clone https://github.com/yourusername/attendance-face-recognition.git
