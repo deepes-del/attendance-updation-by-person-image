@@ -7,7 +7,7 @@ from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.utils import to_categorical
 from mtcnn import MTCNN
 import pickle
-
+#u can use any best fit model which ever gives the good accuracy.
 # Path setup
 dataset_dir = "dataset"  # Directory containing subfolders with images for each person
 names_and_usns_path = os.path.join("data", "names_and_usns.pkl")  # Save the label mapping
@@ -140,3 +140,4 @@ if len(label_map) > 0:
         print(f"Label {label}: {folder}")
 else:
     print("No data found for processing! Make sure the dataset directory is populated.")
+
